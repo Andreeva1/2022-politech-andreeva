@@ -1,7 +1,8 @@
-#include <iostream>
-
+#include "func.cpp"
 
 int main()
 {
-    std::cout << "Hello World";
+    print();
+
+    return 0;
 }
