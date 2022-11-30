@@ -14,12 +14,12 @@ int main() {
     auto t1 = std::chrono::high_resolution_clock::now();
     selection_sort(arr1, n);
     auto t2 = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double, std::nano> select = t2 - t1;
+    std::chrono::duration<double, std::milli> select = t2 - t1;
 
     t1 = std::chrono::high_resolution_clock::now();
     quick_sort(arr2, 0, n - 1);
     t2 = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double, std::nano> quick = t2 - t1;
+    std::chrono::duration<double, std::milli> quick = t2 - t1;
 
     delete arr1;
     delete arr2;
