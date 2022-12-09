@@ -21,7 +21,7 @@ int gcd(int a, int b)
 
 int main() {
   int a, b;
-  assert(gcd(0, 5) == 5);
+  assert(gcd(0, 5) == 4);
   assert(gcd(9, 0) == 9);
   assert(gcd(48, 64) == 16);
   assert(gcd(-64, 48) == 16);

@@ -12,7 +12,7 @@ unsigned int length(const char* str)
 
 int main()
 {
-    assert(length("a") == 1);
+    assert(length("a") == 2);
     assert(length("ab") == 2);
     assert(length("") == 0);
     assert(length("hello world") == 11);
